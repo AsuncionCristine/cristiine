@@ -1,14 +1,13 @@
 <?php
 $title = 'Skills'; $page = 'skills';
 require __DIR__ . '/includes/header.php';
-require_once __DIR__ . '/includes/footer.php';
 require __DIR__ . '/design.php';   // site design
 
 // ===== EDIT YOUR SKILLS HERE. Format: ["Skill name", level from 0 to 100], =====
 $skills = [
-    ["Communication",   50],
-    ["Programming",     20],
-    ["Time Management", 40],
+    ["Communication",   85],
+    ["Programming",     80],
+    ["Time Management", 80],
 ];
 // ===============================================================================
 ?>
