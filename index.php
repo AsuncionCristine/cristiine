@@ -1,6 +1,7 @@
 <?php
 $title = 'Home'; $page = 'home';
 require __DIR__ . '/includes/header.php';
+require __DIR__ . '/design.php';   // site design
 
 // ===== EDIT YOUR HOME TEXT HERE =====
 $role    = 'Student';

@@ -1,6 +1,7 @@
 <?php
 $title = 'About'; $page = 'about';
 require __DIR__ . '/includes/header.php';
+require __DIR__ . '/design.php';   // site design
 
 // ===== EDIT YOUR ABOUT TEXT HERE. One box per line: ["Heading", "Text"], =====
 $about = [

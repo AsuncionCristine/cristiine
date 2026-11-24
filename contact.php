@@ -112,6 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 require __DIR__ . '/includes/header.php';
+require __DIR__ . '/design.php';   // site design
 ?>
 <section>
   <h2>Contact</h2>
